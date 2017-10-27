@@ -1,0 +1,20 @@
+{
+  "name": "<%= pluginName %>",
+  "version": "<%= version %>",
+  "description": "<%= description %>}",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack build --watch"
+  },
+  "author": "<%= author %>",
+  "homepage": "<%= homepage %>",
+  "repository": "<%= repository %>",
+  "devDependencies": {
+    "@types/node": "^8.0.47",
+    "awesome-typescript-loader": "^3.2.3",
+    "copy-webpack-plugin": "^4.2.0",
+    "typescript": "^2.5.3",
+    "webpack": "^3.8.1"
+  }
+}

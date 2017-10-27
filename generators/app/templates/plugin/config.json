@@ -1,0 +1,11 @@
+{
+    "info": {
+      "name": "<%= pluginName %>",
+      "authors": [ "<%= author %>" ],
+      "version": "<%= version %>",
+      "description": "<%= description %>",
+      "repository": "<%= repository %>",
+      "homepage": "<%= homepage %>",
+      "reloadable": <%= reloadable %>
+    }
+  }
